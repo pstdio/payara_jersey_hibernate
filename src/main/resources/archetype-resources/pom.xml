@@ -24,8 +24,8 @@
             
         <dependency>
             <groupId>javax.ejb</groupId>
-            <artifactId>${ejb.vr}</artifactId>
-            <version>3.0</version>
+            <artifactId>ejb-api</artifactId>
+            <version>${ejb.vr}</version>
         </dependency>
             
         <dependency>

@@ -6,10 +6,13 @@
 	name="kotlin-rest-archetype">
 	<fileSets>
 		<fileSet filtered="true" packaged="true">
-			<directory>src/main/java</directory>
+                    <directory>src/main/java</directory>
 		</fileSet>
 		<fileSet>
                     <directory>src/main/webapp/WEB-INF</directory>
+                </fileSet>
+                <fileSet>
+                    <directory>src/main/resources/META-INF</directory>
                 </fileSet>
 	</fileSets>
 </archetype-descriptor>
